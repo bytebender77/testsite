@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-200 to-orange-200 rounded-full blur-xl opacity-40"></div>
               <img 
-                src="/chhatpuja.PNG" 
+                src={`${import.meta.env.BASE_URL}chhatpuja.PNG`}
                 alt="Traditional Thekua for Chhath Puja" 
                 className="relative rounded-2xl shadow-lg transform transition-transform duration-500 hover:scale-105 z-10 w-full h-auto"
               />
