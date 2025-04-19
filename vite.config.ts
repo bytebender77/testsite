@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/chhat-puja-without-payment/',
+  base: '/testsite/',
 });
