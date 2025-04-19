@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Button from '../ui/Button';
 
 const Hero: React.FC = () => {
+  const imageUrl = new URL('/chhatpuja.PNG', import.meta.url).href;
+  
   return (
     <div className="relative bg-gradient-to-r from-amber-50 to-orange-50 overflow-hidden">
       {/* Decorative Elements */}
@@ -44,7 +46,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-200 to-orange-200 rounded-full blur-xl opacity-40"></div>
               <img 
-                src={`${import.meta.env.BASE_URL}chhatpuja.PNG`}
+                src={imageUrl}
                 alt="Traditional Thekua for Chhath Puja" 
                 className="relative rounded-2xl shadow-lg transform transition-transform duration-500 hover:scale-105 z-10 w-full h-auto"
               />
